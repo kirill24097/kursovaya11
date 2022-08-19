@@ -10,7 +10,6 @@ package Kursovaya1;
         private int salary;
 
 
-
         public Employee(String name, String lastName, String middleName, int department, int salary) {
             this.name = name;
             this.lastName = lastName;
@@ -37,7 +36,7 @@ package Kursovaya1;
         }
 
         public Integer getId() {
-            return this.id;
+            return id;
         }
 
         public int getSalary() {
@@ -59,4 +58,3 @@ package Kursovaya1;
         }
 
     }
-
