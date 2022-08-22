@@ -10,11 +10,10 @@ public class Main {
         Employee emp3 = new Employee("кирилл", "Смирнов", "Анатольевич", 3, 11113);
         Employee emp4 = new Employee("кирилл", "Смирнов", "Анатольевич", 4, 11114);
 
-
         System.out.println(emp1);
-        System.out.println(emp2);
-        System.out.println(emp3);
-        System.out.println(emp4);
+       System.out.println(emp2);
+       System.out.println(emp3);
+      System.out.println(emp4);
 
         employees[0] = emp1;
         employees[1] = emp2;
@@ -24,21 +23,21 @@ public class Main {
 
     }
 
-    public static void printEmployees() {
-        for (Employee employee : employees) {
-            System.out.println(employee);
-        }
-    }
+   public static void printEmployees() {
+       for (Employee employee : employees) {
+          System.out.println(employee);
+       }
+   }
 
     public static int calculateTotalSalary() {
-        int sum = 0;
+            int sum = 0;
         for (Employee employee : employees) {
             sum += employee.getSalary();
         }
+
         return sum;
+
     }
-
-
     public static Employee findEmployeeWithMinSalary() {
         Employee result = employees[0];
         int minSalary = employees[0].getSalary();
@@ -49,6 +48,7 @@ public class Main {
             }
         }
         return result;
+
 
 
 

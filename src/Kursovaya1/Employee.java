@@ -53,10 +53,18 @@ package Kursovaya1;
 
         @Override
         public String toString() {
-            return "Сотрудник  " + "ID =  " + id + " ;   Имя=  " + name + "; " + "фамилия=  " + lastName + " ; " + "отчество=  ;" + middleName + "  " +
-                    "Отдел=  " + department + " ; " + "Зарплата  " + salary + ";";
+
+            return "Сотрудник  " + "ID =  " + id + " ;   " +
+                    "Имя=  " + name + "; " + "фамилия=  " + lastName + " ; " +
+                    "отчество=  ;" + middleName + "  " +
+                    "Отдел=  " + department + " ; " +
+                    "Зарплата  " + salary + ";";
+
+
 
         }
+
+
 
 
 
